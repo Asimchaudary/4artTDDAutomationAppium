@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+<listeners>
+<listener class-name="com.qa.listeners.testListener"/>
+</listeners>
+
+  <test name="Test">
+
+    
+    <classes>
+<!--       <parameter name="platformName" value="iOS"/>
+      <parameter name="deviceName" value="Asim's iPhone"/>
+      <parameter name="udid" value="00008020-000A60E63438002E"/>
+      -->
+           <parameter name="platformName" value="iOS"/>
+      <parameter name="deviceName" value="Service’s iPhone"/>
+      <parameter name="udid" value="f0d9fece738845cee98fe4be32945cafbada716a"/>
+        
+              <class name="com.qa.tests.GuestUser"/> 
+            
+   <!--     	<class name="com.qa.tests.forgotPassword"/> 
+            <class name="com.qa.tests.registerUser"/>  -->	 
+   <!--         	<class name="com.qa.tests.LoginTests"/>
+   				 	<methods>
+       							<include name="userLoginWithIncorrectEmail"/>	
+     						<include name="userLoginWithIncorrectPassword"/> 
+      							<include name="userLogin"/>	
+     				</methods>	-->
+	      <!--    <class name="com.qa.tests.chooseProfileScreen"/>  -->
+     <!--        <class name="com.qa.tests.generalCases"/>   
+        <methods>
+   			<include name="checkNotificationScreen"/>	
+       				<include name="conversationTab"/>	 
+     				<include name="checkChat"/> 
+     		</methods>	 -->
+         <!--      
+      <class name="com.qa.tests.discoveryMode"/>
+      <class name="com.qa.tests.registerBasicArtwork"/>
+      <class name="com.qa.tests.registerDigitalArtwork"/>   
+ 			
+ 		<class name="com.qa.tests.AR_View"/>	-->
+ 			<!--      <class name="com.qa.tests.MyProfile_EditProfile"/> 
+ 			     <methods>
+   				<include name="checkProfile"/>	
+       				<include name="changePassword"/>	 
+     		
+     		</methods>	-->	
+ 			
+    </classes> 
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
